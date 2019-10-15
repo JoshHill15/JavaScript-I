@@ -89,17 +89,29 @@ console.log(intern5.multiplyNums(3,4));
 //   speak:function(){
 //     "hey my name is" + this.name
 //   }
+
 //   {
 //     name: "George",
 //     age: 50
-//     {
-//       name: "Sam",
-//       age: 30
+//     speak:function(){
+//       function(){
+//         "hey my name is" + this.name
+//       }
+
+//       {
+//         name: "Sam",
+//         age: 30,
+//         speak: function(){
+//           "hey my name is" + this.name
+//         }
+//       }
 //     }
+
 //   }
 // }
 
 // Log the parent object's name
+// console.log(parent.name)
 // Log the child's age
 
 // Log the name and age of the grandchild
